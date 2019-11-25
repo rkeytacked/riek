@@ -19442,7 +19442,8 @@
 	    beforeStart: _propTypes2.default.func,
 	    afterStart: _propTypes2.default.func,
 	    beforeFinish: _propTypes2.default.func,
-	    afterFinish: _propTypes2.default.func
+	    afterFinish: _propTypes2.default.func,
+        afterCancel: _propTypes2.default.func,
 	};
 	exports.default = RIEBase;
 
@@ -20075,6 +20076,7 @@
 	        _this.cancelEditing = function () {
 	            debug('cancelEditing');
 	            _this.setState({ editing: false, invalid: false });
+                _this.props.afterCancel ? _this.props.afterCancel() : null;
 	        };
 
 	        _this.keyDown = function (event) {

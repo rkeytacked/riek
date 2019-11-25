@@ -93,6 +93,7 @@ Components come unstyled, so take a look at [demo.jsx](https://github.com/kaivi/
 * **afterStart**: Fires after editing starts
 * **beforeFinish**: Fires before editing ends, before validations
 * **afterFinish**: Fires after editing ends, after validations
+* **afterCancel**: Fires after editing is cancelled, either finished or aborted
 
 ### Component-specific props
 

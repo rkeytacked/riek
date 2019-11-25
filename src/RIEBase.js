@@ -39,6 +39,7 @@ export default class RIEBase extends React.Component {
         afterStart: PropTypes.func,
         beforeFinish: PropTypes.func,
         afterFinish: PropTypes.func,
+        afterCancel: PropTypes.func,
     };
 
     doValidations = (value) => {
