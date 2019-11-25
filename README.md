@@ -102,7 +102,7 @@ Components come unstyled, so take a look at [demo.jsx](https://github.com/kaivi/
 
 #### RIETextArea
 * **rows**: rows property on textarea tag while editing
-* **cols**: rows property on textarea tag while editing
+* **cols**: cols property on textarea tag while editing
 
 #### RIESelect
 * **options**: an array of objects containing values and text for [select options](http://www.w3schools.com/tags/tag_option.asp)
